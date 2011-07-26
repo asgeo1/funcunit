@@ -10074,3 +10074,8 @@ $.each(["closest","find","next","prev","siblings","last","first"], function(i, n
 
 
 })
+
+(function($){
+  $.getScript('http://localhost:3000/plugins/svg/jquery.svg.min.js');
+  $.getScript('http://localhost:3000/plugins/svg/jquery.svgdom.min.js');
+})(window.jQuery || window.FuncUnit.jQuery);
